@@ -1,6 +1,6 @@
 {
   "name": "gridsome-plugin-base-components",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "A Gridsome-friendly way to auto-import base components.",
   "main": "gridsome.client.js",
   "scripts": {
