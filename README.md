@@ -1,25 +1,13 @@
-# gridsome-plugin-purgecss
+# gridsome-plugin-base-components
 
-This plugin will add [Purgecss](https://www.purgecss.com) to your
-[Gridsome](http://gridsome.org) project.
+Auto-import base components. [Like this.](https://vuejs.org/v2/guide/components-registration.html)
 
-To use this plugin, run `npm install -D gridsome-plugin-purgecss` add the following to your `gridsome.config.js`.
-
-```javascript
-plugins: [
-  {
-    use: 'gridsome-plugin-purgecss',
-	// default options, the following will be included if you don't provide anything
-	options: {
-	  content: [
-        './src/**/*.vue',
-        './src/**/*.js',
-        './src/**/*.jsx',
-        './src/**/*.pug',
-        './src/**/*.md'
-      ],
-	  defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || [],
-	}
-  }
-]
+```html
+<BaseInput
+  v-model="searchText"
+  @keydown.enter="search"
+/>
+<BaseButton @click="search">
+  <BaseIcon name="search"/>
+</BaseButton>
 ```

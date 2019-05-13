@@ -1,8 +1,8 @@
 {
-  "name": "gridsome-plugin-purgecss",
-  "version": "1.0.12",
-  "description": "A Tailwind-friendly purgecss plugin for Gridsome.",
-  "main": "index.js",
+  "name": "gridsome-plugin-base-components",
+  "version": "0.0.1",
+  "description": "A Gridsome-friendly way to auto-import base components.",
+  "main": "gridsome.client.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,17 +12,12 @@
   },
   "keywords": [
     "gridsome",
-    "gridsome-plugin",
-    "tailwind",
-    "purgecss"
+    "gridsome-plugin"
   ],
   "author": "Brandon Pittman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brandonpittman/gridsome-plugin-purgecss/issues"
+    "url": "https://github.com/brandonpittman/gridsome-plugin-base-components/issues"
   },
-  "homepage": "https://github.com/brandonpittman/gridsome-plugin-purgecss#readme",
-  "dependencies": {
-    "@fullhuman/postcss-purgecss": "latest"
-  }
+  "homepage": "https://github.com/brandonpittman/gridsome-plugin-base-components#readme"
 }
