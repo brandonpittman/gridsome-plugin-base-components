@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/brandonpittman/gridsome-plugin-purgecss.git"
+    "url": "git+ssh://git@github.com/brandonpittman/gridsome-plugin-base-components.git"
   },
   "keywords": [
     "gridsome",
