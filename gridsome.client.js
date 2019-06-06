@@ -9,7 +9,7 @@ export default function(Vue) {
       // Whether or not to look in subfolders
       true,
       // The regular expression used to match base component filenames
-      /Base[A-Z]\w+\.(vue|js)$/,
+      /(App|Base|V)[A-Z]\w+\.(vue|js)$/,
     )
 
     requireComponent.keys().forEach(fileName => {
