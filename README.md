@@ -4,6 +4,8 @@ Auto-import base components. [Like
 this.](https://vuejs.org/v2/guide/components-registration.html) Components
 should be in `src/components` and start with `Base`.
 
+If you have files in `src/composables` that fit the pattern `use-something.{js,ts}`, these will also be required.
+
 ## Installation
 
 `npm i gridsome-plugin-base-components`
